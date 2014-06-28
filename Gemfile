@@ -43,3 +43,7 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+# Use SCSS for stylesheets
+gem 'sass-rails', '~> 4.0.0'
+
