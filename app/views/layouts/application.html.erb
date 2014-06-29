@@ -19,7 +19,7 @@
 			</div>
 		</div>
 		<div class="col-xs-4 slogan">
-			Splurting out unsolicited advice about entrepreneurship sinces 2014
+			Splurting out unsolicited advice about entrepreneurship since 2014
 		</div>
 		<div class="col-xs-5 links">
 			<%= link_to 'Contribute', '#' %>
@@ -29,7 +29,27 @@
 	<hr />
 <br class="clear" />
 
+<div class="container">
 <%= yield %>
+</div>
+
+<div id="footer">
+
+	<div class="container">
+
+		<div class="col-xs-6">
+			 <%= link_to "This isn't enough, I need more", "#", :class => 'next-quote' %>
+		</div>
+
+		<div class="col-xs-6 footer-blurb">
+			Proudly hacked in Pittsburgh, PA by <a href="http://www.businesscompletesolutions.com/about-business-complete-solutions/">David C. Brown</a><br />
+			Want to buiild your own Splurty Web App - <a href="http://www.businesscompletesolutions.com/speakers">Ask us.</a>
+		</div>
+
+		<p class="text-muted"> Place sticky footer contents here.</p>
+	</div>
+</div>
+
 
 </body>
 </html>
